@@ -1,5 +1,4 @@
 import React, {useState, useEffect} from 'react';
-import {Link} from 'react-router-dom';
 import avatar from '../img/avatar.png';
 import '../components/Navbar.css';
 import '../components/base.css';
@@ -51,36 +50,46 @@ return (
         <div className="intro">
             <h1 className="intro-heading">Nguyen</h1>
             <h2 className="intro-subhead">Web Developer</h2>
-        </div>
+        </div> 
 
         <ul className="nav-list">
             <li className="nav-item">
-                <Link to='/' className="nav-link" onClick={closeMobileMenu}> 
+                <a href="#" className="nav-link " onClick={closeMobileMenu}>
                     Home
-                </Link>
+                </a>
             </li>
             <li className="nav-item">
-                <Link to='/about' className="nav-link" onClick={closeMobileMenu}> 
+                <a href="#about" className="nav-link " onClick={closeMobileMenu}>
                     About
-                </Link>
+                </a>
             </li>
             <li className="nav-item">
-                <Link to='/myskill' className="nav-link" onClick={closeMobileMenu}> 
-                    Product
-                </Link>
+                <a href="#my-skill" className="nav-link " onClick={closeMobileMenu}>
+                    My Skil
+                </a>
             </li>
             <li className="nav-item">
-                <Link to='/contact' className="nav-link" onClick={closeMobileMenu}> 
+                <a href="#experience" className="nav-link " onClick={closeMobileMenu}>
+                    Work exprience
+                </a>
+            </li>
+            <li className="nav-item">
+                <a href="#my-project" className="nav-link " onClick={closeMobileMenu}>
+                    My Project
+                </a>
+            </li>
+            <li className="nav-item">
+                <a href="#contact" className="nav-link " onClick={closeMobileMenu}>
                     Contact
-                </Link>
+                </a>
             </li>
         </ul>
 
         <div className="social-media-wrapper">
             <span>Follow me on</span>
             <div className="social-media">
-                <Link to='/facebook' className="sm-link"><i className="fab fa-facebook"></i></Link>
-                <Link to='/instagram' className="sm-link"><i className="fab fa-instagram"></i></Link>
+                <a to='/facebook' className="sm-link"><i className="fab fa-facebook"></i></a>
+                <a to='/instagram' className="sm-link"><i className="fab fa-instagram"></i></a>
             </div>
             <div className="copyright-notice">
                 <p>Copyright &copy; 2020. All rights reserved</p>
@@ -120,7 +129,7 @@ return (
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ducimus fugiat repudiandae iste necessitatibus laudantium rem, magni consectetur nemo quae fuga saepe id eum aut esse impedit ad quos exercitationem,
                         </p>
-                        <Link to='/' className='btn cta-btn'>Hire me </Link>
+                        <a to='/' className='btn cta-btn'>Hire me </a>
                     </div>
                 </div>
 
@@ -180,7 +189,7 @@ return (
 
     {/* My project  */}
 
-    <section className="my-project">
+    <section id='my-project' className="my-project">
         <div className="container">
             <div className="heading-group">
                 <span className="section-head-small">Portfolio</span>
@@ -198,7 +207,7 @@ return (
     {/* END My project  */}
 
     {/* Footer */}
-    <section className="footer">
+    <section className="footer" id='contact'>
         <div className="container">
             <div className="heading-group">
                 <span className="section-head-small">Contact me</span>
