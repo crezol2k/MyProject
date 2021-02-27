@@ -129,7 +129,7 @@ return (
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ducimus fugiat repudiandae iste necessitatibus laudantium rem, magni consectetur nemo quae fuga saepe id eum aut esse impedit ad quos exercitationem,
                         </p>
-                        <a to='/' className='btn cta-btn'>Hire me </a>
+                        <a to='/' className='btn'>Hire me </a>
                     </div>
                 </div>
 

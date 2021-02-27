@@ -279,23 +279,41 @@ section:not(.hero) {
 }
 
 .btn {
+  display: inline-block;
+  position: relative;
   font-size: 1.4rem;
+  color: #262626;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
   padding: 1rem 3rem;
-  display: inline-block;
   text-decoration: none;
-}
-
-.cta-btn {
-  color: #262626;
   border: 1px solid #262626;
-  transition: all .75s;
+  cursor: pointer;
+  overflow: hidden;
+  z-index: 1;
+  transition: all .7s;
 }
 
-.cta-btn:hover {
+.btn:hover {
   color: #f4f4f4;
-  background-color: #262626;
+  z-index: 2;
+}
+
+.btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -10%;
+  width: 0;
+  height: 100%;
+  background-color: black;
+  transform:  skewX(25deg);
+  z-index: -1;
+  transition: width .5s;
+}
+
+.btn:hover::before {
+  width: 120%;
 }
 
 /* END about */
