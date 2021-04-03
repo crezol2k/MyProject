@@ -88,8 +88,8 @@ return (
         <div className="social-media-wrapper">
             <span>Follow me on</span>
             <div className="social-media">
-                <a to='/facebook' className="sm-link"><i className="fab fa-facebook"></i></a>
-                <a to='/instagram' className="sm-link"><i className="fab fa-instagram"></i></a>
+                <a href='https://www.facebook.com/printing.nguyen' target='blank' className="sm-link"><i className="fab fa-facebook"></i></a>
+                <a href='https://www.instagram.com/__nguyen1912/' target='blank' className="sm-link"><i className="fab fa-instagram"></i></a>
             </div>
             <div className="copyright-notice">
                 <p>Copyright &copy; 2020. All rights reserved</p>
@@ -118,11 +118,11 @@ return (
                 <div className="about-me-intro">
                     <div className="intro-description">
                         <p>
-                            <span>Hi guy! I'm Nguyen Van Dang</span> ipsum dolor sit amet consectetur adipisicing elit. Adipisci, cumque temporibus enim facilis excepturi ex officiis, cupiditate
-                            laboriosam ipsa odio itaque totam corporis aperiam! Officia deleniti officiis, ut nam, vero omnis iure adipisci soluta, dicta dignissimos quo sequi. Vel nulla unde id repudiandae iusto.
+                            <span>Xin chào! Tôi là Nguyễn Văn Đang</span> , hiện tại là sinh viên năm 3 và đang theo học tại trường Đại học Khoa Học Huế 
+                            chuyên nghành Công nghệ thông tin. Đây là website hoàn chỉnh đầu tiên tôi viết với mục đích giới thiệu bản thân. Tuy nhiều đoạn code còn lộn xộn ngáo ngố nhưng vẫn hoạt động tốt 
                         </p>
+                        
                         <p>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam deserunt cupiditate nihil a! Quas, voluptate cumque? Velit debitis, ipsum amet aliquid animi repellendus quod esse. Voluptate odit ab excepturi esse,
                         </p>
                     </div>
                     <div className="call-to-action">

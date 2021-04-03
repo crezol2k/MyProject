@@ -2,7 +2,7 @@
   --body-font-size: 1.6rem;
   --body-font-color: #5f5f5f;
   --body-font-family: 'Open Sans', sans-serif;
-  --heading-font-family: 'Playfair Display', sans-serif;
+  --heading-font-family: 'Cabin', sans-serif;
   --light-color: #f4f4f4;
   --dark-color: #262626;
   --light-gray-color: #f2f3f7;
@@ -134,6 +134,10 @@ p {
 .social-media {
   display: flex;
   justify-content: center;
+}
+
+.social-media a {
+  cursor: pointer;
 }
 
 .sm-link {
